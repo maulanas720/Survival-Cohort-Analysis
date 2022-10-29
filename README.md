@@ -47,18 +47,18 @@ dengan ketentuan :
 - lookup arraynya yaitu pada sheet yang lain pada data referensi yaitu kolom ***Customer ID***
 - lalu return array nya pada sheet yang lain pada data referensi yaitu kolom ***first_invoice_date***
 
-### Tahapan Survival Analisa :  Membuat Observasion Group pada kolom ** * month_group * ** dan ** * month_age * **
-##### 4. Mencari nilai ***month_group* ** dengan mengambil bulan dan tahun dari kolom *** invoice_date ***
+### Tahapan Survival Analisa :  Membuat Observasion Group pada kolom ***month_group*** dan ***month_age***
+##### 4. Mencari nilai ***month_group*** dengan mengambil bulan dan tahun dari kolom ***invoice_date***
 
 ![image](https://user-images.githubusercontent.com/55653494/198812312-00b36c13-34d1-4556-b93e-a0a228f13cd0.png)
 
 menggunakan fungsi **DATE** dengan ketentuan, value dari Year dan Month merujuk pada data kolom ***invoice_date***
 
-##### 5. Mencari nilai*** month_age*** untuk membentuk group dalam bentuk bulanan
+##### 5. Mencari nilai ***month_age*** untuk membentuk group dalam bentuk bulanan
 
 ![image](https://user-images.githubusercontent.com/55653494/198812738-5d480eb0-e7ee-4456-bdeb-a3f6c91423ad.png)
 
-menggunakan fungsi **ROUND** dengan ketentuan value1 dikurang value2 dibagi 30. value1 yaitu data kolom ***invoice_date*** dan value2 merujuk pada data pada kolom ***first_invoice_date* **, dan nilai 0 adalah tidak ada digit dibelakang koma
+menggunakan fungsi **ROUND** dengan ketentuan value1 dikurang value2 dibagi 30. value1 yaitu data kolom ***invoice_date*** dan value2 merujuk pada data pada kolom ***first_invoice_date***, dan nilai 0 adalah tidak ada digit dibelakang koma
 
 ### Tahapan Survival Analisa : Membuat summary dengan menggunakan table pivot
 ##### 6. buat table pivot berdasarkan dataset utama, dengan mengambil kolom ***month_group*** sebagai kolom dan ***month_age*** sebagai baris attribute nya dan nilai tablenya yaitu pada kolom ***Customer ID***
@@ -97,7 +97,7 @@ maka nanti hasil retention rate per age akan menjadi seperti ini
 ##### 8. Menghitung Retention Rate through period
 perhitugan Retention Rate through period menghitung data berdasarkan dari periode sebelumnya, berbeda dengan perhitungan retention rate per age, yang melakukan perhitungan berdasarkan grand total.
 
-untuk cara mendapatkan nilai Retention Rate through period caranya yaitu nilai pada data retention per age * dengan bulan sebelumnya (untuk data bulan pertama dikali dengan 100%)
+untuk cara mendapatkan nilai Retention Rate through period caranya yaitu nilai pada data retention per age dikali dengan bulan sebelumnya (untuk data bulan pertama dikali dengan 100%)
 
 ![image](https://user-images.githubusercontent.com/55653494/198818016-01fb0263-8884-494c-b13f-0e832ba0793a.png)
 
