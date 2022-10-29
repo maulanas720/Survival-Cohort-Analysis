@@ -10,7 +10,7 @@ dataset terdiri dari 8 kolom atribut yang terdiri dari Country, Customer ID, Des
 #### Aplikasi yang digunakan
 Menggunakan microsoft excel untuk analisis datanya
 
-#Survival Analysis
+# Survival Analysis
 
 ### Tahapan Survival Analisa : Mencari Rentang Waktu pada kolom ***first_invoice_date***
 ##### 1. Membuat sheet baru untuk lookup first_invoice_date sebagai data referensi
@@ -107,7 +107,7 @@ maka nanti hasilnya akan menjadi seperti ini :
 
 ![image](https://user-images.githubusercontent.com/55653494/198818597-94488597-b007-4873-88f8-de74fb35e28e.png)
 
-#Cohort Analysis
+# Cohort Analysis
 Cohort analysis berfokus pada survival anlysis per group. untuk contoh kasus kali ini group yang akan dipilih berdasarkan pada country yaitu ada data EIRE (Ireland / Irlandia) dan Germany (jerman). tujuan nya yaitu untuk mengetahui distribusi data  customer ID dari data country ini seperti apa.
 
 ## Tahapan Cohort Analysis
