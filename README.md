@@ -47,8 +47,8 @@ dengan ketentuan :
 - lookup arraynya yaitu pada sheet yang lain pada data referensi yaitu kolom ***Customer ID***
 - lalu return array nya pada sheet yang lain pada data referensi yaitu kolom ***first_invoice_date***
 
-### Tahapan Survival Analisa :  Membuat Observasion Group pada kolom ***month_group* ** dan ***month_age* **
-##### 4. Mencari nilai ***month_group* ** dengan mengambil bulan dan tahun dari kolom ***invoice_date***
+### Tahapan Survival Analisa :  Membuat Observasion Group pada kolom ** * month_group * ** dan ** * month_age * **
+##### 4. Mencari nilai ***month_group* ** dengan mengambil bulan dan tahun dari kolom *** invoice_date ***
 
 ![image](https://user-images.githubusercontent.com/55653494/198812312-00b36c13-34d1-4556-b93e-a0a228f13cd0.png)
 
